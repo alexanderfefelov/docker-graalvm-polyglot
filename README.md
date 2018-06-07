@@ -1,3 +1,3 @@
 How to use:
 
-    docker run alexanderfefelov/graalvm-polyglot bash -c "java -version && gu list"
+    docker run --rm alexanderfefelov/graalvm-polyglot bash -c "java -version && gu list"
