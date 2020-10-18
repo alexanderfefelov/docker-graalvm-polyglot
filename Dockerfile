@@ -1,4 +1,4 @@
-FROM alexanderfefelov/graalvm
+FROM alexanderfefelov/graalvm:20.2.0
 
 RUN apt-get -qq update \
   && apt-get -qq install --yes --no-install-recommends libgomp1 \
